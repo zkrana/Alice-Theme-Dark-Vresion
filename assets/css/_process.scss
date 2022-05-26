@@ -1,0 +1,109 @@
+.process{
+    background: url(../images/art-brush-colors-3112.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: -20px;
+    .overlay{
+        width: 100%;
+        height: 100%;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background-color: rgba(255,255,255,.93);
+        .content{
+            h2,.header-details{
+                color: #434343;
+            }
+            .first-para{
+                font-size: 16px;
+                line-height: 24px;
+                padding-top: 20px;
+            }
+
+            .process-row{
+                position: relative;
+                &:before {
+                    top: 75px;
+                    left: 0;
+                    position: absolute;
+                    content: " ";
+                    width: 100%;
+                    height: 1px;
+                    border-top: 1px dashed #767676;
+                    z-index: 0;
+                  }
+                  .process-step {
+                    text-align: center;
+                    position: relative;
+                    padding-bottom: 20px;
+
+                    .process-box {
+                        position: relative;
+                        width: 150px;
+                        height: 150px;
+                        text-align: center;
+                        padding: 0;
+                        font-size: 36px;
+                        line-height: 150px;
+                        border-radius: 15px;
+                        border: 1px solid;
+                        border-color: rgba(118,118,118,.7);
+                        overflow: hidden;
+                        margin: 0 auto;
+                      }
+                      .title {
+                        color: #434343;
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                      }
+                      .text-center{
+                        color: #767676;
+                        padding: 0 15px;
+                      }
+                  }
+            }
+            .text-center{
+                color: #767676;
+                padding: 0 15px;
+                letter-spacing: 1.2px;
+              }
+
+        }
+    }
+}
+#numbers{
+    background: url(../images/picjumbo.com_IMG_7432.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    .overlay{
+        background-color: rgba(14,14,15,.85);
+        padding: 70px 0;
+
+        .content{
+
+            .counters {
+                margin-top: 40px;
+                margin-bottom: 20px;
+
+                .counter {
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    line-height: 28px;
+                    padding-top: 60px;
+                    padding-bottom: 60px;
+                    padding-left: 0;
+                    padding-right: 0;
+                    .count {
+                        font-size: 45px;
+                        line-height: 78px;
+                        font-weight: 600;
+                      }
+                      .heading{
+                          color: #fff;
+                          text-align: center;
+                      }
+                  }
+              }
+        }
+    }
+}
