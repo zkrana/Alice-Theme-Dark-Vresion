@@ -5,8 +5,17 @@
         padding-top: 70px;
         padding-bottom: 70px;
         background-color: rgba(255, 255, 255, 0.9);
-
+        @media (max-width: 991px){
+          .header-details {
+          font-size: 11px;
+          }
+      }
         .bottom-content{
+          @media (max-width: 768px) {
+            #container{
+              padding: 0;
+            }
+          }
             .header h1{
                 text-align: center;
                 background: -webkit-linear-gradient(#e3ca66, #b48e47);
@@ -23,10 +32,14 @@
             
             .grid-item {
                 display: inline-block;
-                height: 259px;
+                height: fit-content;
                 overflow: hidden;
                 text-align: center;
                 width: 25%;
+                @media (max-width: 767px) {
+                  left: 0;
+                  width: 50%;
+                }
             }
             .grid-item img{
                 width: 100%;
@@ -60,6 +73,9 @@
                 font-size: 15px;
                 font-weight: 600;
                 cursor: pointer;
+                @media (max-width: 680px) {
+                  padding: 10px;
+                }
                 .hover-effect:before {
                     width: 20px;
                     text-align: right;
@@ -89,18 +105,18 @@
             .filters li a{
                 color: #434343;
                 text-decoration: none;
+                @media (max-width: 991px) {
+                  font-size: 11px;
+                }
             }   
             .filters li.active a{
                 padding: 10px 25px;
                 color: #cb875f;
+                @media (max-width: 680px) {
+                  padding: 10px;
+                }
             }
-            
-            
 
-            
-            
-            
-            
             .overlay {
               position: absolute; 
               bottom: 0; 

@@ -1,0 +1,283 @@
+/* Theme Alice Global Setup */
+/* cyrillic */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/raleway/v27/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCMPrEHJA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  
+  /* cyrillic */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/raleway/v27/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvoorCMPrEHJA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  
+  /* cyrillic */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/raleway/v27/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpbCMPrEHJA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  
+  /* cyrillic */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/raleway/v27/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pbCMPrEHJA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/raleway/v27/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pbCHPrEHJA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  
+  /* cyrillic */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/raleway/v27/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtapbCMPrEHJA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  
+.row {
+    margin-left: 9px;
+    margin-right: 5px;
+  }
+  .row:after, .row:before, .clearfix:before, .clearfix:after,
+  .container-fluid:before,.container-fluid:after {
+    content: " ";
+    display: table;
+  }
+  .row:before, .row:after .clearfix:after, .clearfix:before,
+  .container-fluid:before,.container-fluid:afte {
+    clear: both;
+  }
+  
+  @media (min-width: 992px){
+    .col-md-offset-3 {
+      margin-left: 25%;
+    }
+    
+  }
+  .col-xs-3 {
+    width: 25%;
+    @media (max-width: 991px) {
+      width: 16.6666667%;
+    }
+  }
+  .col-md-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  .row-fix{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .text-uppercase{
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .text-center{
+    text-align: center;
+    color: #fff;
+  }
+  .text-left{
+    text-align: left;
+    text-transform: uppercase;
+  }
+  
+  .pr{
+    position: relative;
+  }
+  .banner-cell{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  .colors-e {
+    color: #767676;
+    background-color: rgba(255,255,255,.93);
+  }
+  .colors-p {
+    color: #767676;
+  }
+  .highlight{
+    color: #cb875f;
+  }
+  .background-transparent{
+    background-color: transparent;
+  }
+  .title, input.button {
+    font-family: Raleway,Arial,Helvetica,sans-serif;
+  }
+  .title{
+    text-transform: uppercase;
+    margin-top: 0;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 700;
+  }
+  .home-alice-heading{
+    font-size: 5vw;
+    font-weight: 800;
+    line-height: 90px;
+    margin-top: 0;
+    margin-bottom: 11px;
+    text-align: right;
+  }
+
+  .heading-f{
+    margin-left: 10px;
+  }
+  .border-color{
+    border-left: 1px solid rgba(203,135,95,.16);
+  }
+  .light-font-weight{
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .underline-text {
+    border-color: rgba(239, 239, 239, 0.5);
+    border-bottom-style: solid;
+    padding-bottom: 7px;
+  }
+  .colors-h {
+    color:#efefef;
+    background-color:rgba(14,14,15,.85);
+   }
+   .team-name{
+     color: #434343;
+   }
+   .background-60-d {
+    background-color: rgba(179,119,82,.6);
+  }
+  .background-60-f {
+    background-color: rgba(38,40,51,.6);
+  }
+   .background-lite-c {
+    background-color: rgba(41,36,31,.46806867);
+  }
+  .background-d {
+    background-color: rgba(179,119,82,.82);
+  }
+  .background-25-b {
+    background-color: rgba(97,94,90,.25);
+  }
+  .background-10-light {
+    background-color: rgba(255,255,255,.1);
+  }
+  .background-35-h {
+    background-color: rgba(14,14,15,.35);
+  }
+  .background-lite-e {
+    background-color: rgba(255,255,255,.53085837);
+  }
+  .border-heading-b {
+    border-color: rgba(255,255,255,.7);
+  }
+  .background-lite-b {
+    background-color: rgba(97,94,90,.46806867);
+  }
+  .background-10-b {
+    background-color: rgba(97,94,90,.1);
+  }
+  .background-95-h {
+    background-color: rgba(14,14,15,.95);
+  }
+  
+  .background-95-e {
+    background-color: rgba(255,255,255,.95);
+  }
+  .background-95-f {
+    background-color: rgba(38,40,51,.95);
+  }
+  .nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+  .nav-tabs{
+    border-bottom: 1px solid #ddd;
+    border-bottom-color: rgba(57,57,57,.3);
+  }
+  .tab-content {
+    .tab-pane {
+      display: none;
+    }
+  }
+  .fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+  }
+  .heading-b {
+    color: #fff !important;
+  }
+  .big-font {
+    font-size: 15px;
+  }
+  .uppercase {
+    text-transform: uppercase;
+  }
+  .text-right{
+    text-align: right;
+  }
+  .heading-b {
+    color: #fff;
+  }
+
+  .button {
+    margin-top: 20px;
+    font-weight: 400;
+    width: auto;
+    color: #cb875f;
+    border-style: solid;
+    border-width: 1px;
+    line-height: 22px;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  .colors-g {
+    text-align: left;
+    color: #afafaf;
+    background-color: #212124;
+    h4,h5{
+      color: #fff;
+    }
+    a{
+      color: #afafaf;
+      &:hover{
+        color: rgba(175,175,175,.75);
+      }
+    }
+  }
+
+  .fa-stack {
+    background: #fff;
+    padding: 7px;
+    border-radius: 50%;
+    color: #000;
+  }
+  .fa-brands, .fab {
+    font-style: normal;
+  }

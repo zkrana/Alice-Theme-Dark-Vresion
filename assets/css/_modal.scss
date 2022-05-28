@@ -1,0 +1,99 @@
+.ext-nav {
+    position: fixed;
+    z-index: 1030;
+    bottom: 0;
+    bottom: 25px;
+    left: 25px;
+    right: 25px;
+    top: 49px;
+    opacity: 0;
+    visibility: hidden;
+    overflow: auto;
+    transition: all .5s ease-in-out;
+    .show {
+        opacity: 1;
+        visibility: visible;
+      }
+      .view {
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        .bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            display: block;
+          }
+          .content {
+            position: relative;
+            padding-top: 70px;
+            padding-bottom: 70px;
+            transition: transform .5s;
+            .container-fluid {
+                margin-right: auto;
+                margin-left: auto;
+                padding-left: 15px;
+                padding-right: 15px;
+                a {
+                    display: block;
+                    div {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                        max-width: none;
+                        line-height: 30px;
+                        .side-label {
+                            color: #cb875f;
+                          }
+                          span {
+                            display: block;
+                          }
+                          .side-title {
+                            font-size: 30px;
+                            font-weight: 800;
+                            position: relative;
+                            color: #434343;
+                            &:before {
+                                width: 20px;
+                                text-align: right;
+                                margin-right: 5px;
+                                margin-left: -25px;
+                                content: '[';
+                                transform: translateX(20px);
+                                display: inline-block;
+                                opacity: 0;
+                                transition: transform .3s,opacity .2s;
+                              }
+                              &:after {
+                                width: 20px;
+                                text-align: left;
+                                margin-left: 5px;
+                                margin-right: -25px;
+                                content: ']';
+                                transform: translateX(-20px);
+                                display: inline-block;
+                                opacity: 0;
+                                transition: transform .3s,opacity .2s;
+                              }
+                          }
+                      }
+                  }
+              }
+            .full-height {
+                height: 100%;
+              }
+          }
+          .no-bottom-padding {
+            padding-bottom: 0;
+          }
+          .no-top-padding {
+            padding-top: 0;
+          }
+          
+      }
+      .half-height {
+        height: 50%;
+      }
+  }

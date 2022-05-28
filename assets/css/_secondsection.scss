@@ -86,16 +86,27 @@
             padding-top: 70px;
             padding-bottom: 70px;
             background-color: rgba(255, 255, 255, 0.9);
+            .container{
+                @media (max-width:991px) {
+                    max-width: 100%;
+                    padding: 0;
+                    margin: 0;
+                }
+            }
             h2,p{
                 color: #434343;
             }
             p{
                 margin-top: -10px;
                 margin-bottom: 30px;
-                font-family: Raleway,Arial,Helvetica,sans-serif;
-                font-size: 16px;
+                font-family: 'Raleway',Arial,Helvetica,sans-serif;
+                font-size: 13px;
                 letter-spacing: 1.2px;
                 font-weight: 700;
+                @media (max-width: 991px) {
+                  font-size: 11px;
+                  font-weight: 700;
+                }
             }
             .lead {
             text-align: center;
@@ -104,6 +115,7 @@
             line-height: 24px;
             letter-spacing: 1.2px;
             font-weight: 400;
+            color: #767676;
             }
             .bottom-content{
                 .icon{
@@ -142,7 +154,10 @@
             padding-bottom: 70px;
             .content{
                 .padding-both{
-                    padding: 0 20rem;
+                    padding: 0 15rem;
+                    @media (max-width: 991px) {
+                        padding: 0;
+                      }
                 }
                 P{
                     padding: 10px 18px 0;
