@@ -1214,7 +1214,6 @@ section {
   height: -moz-fit-content;
   height: fit-content;
   position: relative;
-  overflow: hidden;
 }
 
 .team .overlay .bottom-content .team-body .fluid-width {
@@ -1229,6 +1228,8 @@ section {
   height: fit-content;
   -webkit-transition: all .5s ease 0s;
   transition: all .5s ease 0s;
+  position: relative;
+  overflow: hidden;
 }
 
 .team .overlay .bottom-content .team-body .team-thumbnail:hover img {
@@ -1241,12 +1242,16 @@ section {
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
   opacity: 0;
   display: block;
   margin: auto 0;
   -webkit-transform: scale(1);
           transform: scale(1);
   overflow: hidden;
+  padding-top: 50%;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .team .overlay .bottom-content .team-body .team-thumbnail .team-hover p {
@@ -1255,15 +1260,7 @@ section {
 
 .team .overlay .bottom-content .team-body .team-thumbnail:hover .team-hover {
   opacity: 1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
   background-color: rgba(97, 94, 90, 0.9);
-  padding-top: 50%;
 }
 
 .team .overlay .bottom-content .team-body .caption {
