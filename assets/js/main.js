@@ -335,13 +335,10 @@ $(document).ready(function(){
 	});
   });
 
-  $( document ).ready(function() {
-	//Calls the modal when button is clicked
-	$('#jsModal').on('click', function(){
-	  $('#myModal').modal()
-	});
-	// Calls when modal hides
-	$('#myModal').on('hidden.bs.modal', function (e) {
-	  alert('The modal closed')
-	})
-  });
+  window.onload = ()=>{
+	// $(selector).countMe(delay,speed)
+	$("#num1").countMe(40, 1);
+	$("#num2").countMe(30, 30);
+	$("#num3").countMe(40, 1);
+	$("#num4").countMe(100,200);
+ }

@@ -1,6 +1,7 @@
 // html,
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap');
 body {
-    font-family: 'Raleway',Arial,Helvetica,sans-serif;
+  font-family: 'Raleway', sans-serif;
     text-rendering: optimizeLegibility;
     scroll-behavior: smooth;
     outline: 0;
@@ -11,9 +12,7 @@ body {
 h2, h3, h4, h5 {
   font-weight: 700;
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway';
-}
+
 h2 {
   font-size: 70px;
   line-height: 84px;
@@ -31,7 +30,6 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 p {
-  font-family: 'Raleway';
   font-size: 13px;
   line-height: 22px;
   margin-bottom: 11px;

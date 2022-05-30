@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="assets/css/linecons.css">
 </head>
 
 <body>
@@ -60,10 +62,65 @@
           <li><a href="#six" class="hover-effect">Process</a></li>
           <li><a href="#seven" class="hover-effect">Skills</a></li>
           <li><a href="#eight" class="hover-effect">Contact</a></li>
-          <li class="hidden-xs">
-            <!-- <a class="menu-toggle ext-nav-toggle target" data-target=".ext-nav" href="#"></a> -->
-          </li>
         </ul>
+      </div>
+      <div class="modal-box">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- Modal Popup Section -->
+                    <div class="full-modal">
+                      <div class="container-fluid">
+                        <div class="row bg">
+                          <a href="blog.html" class="col-lg-6 col-md-12 colors-e top-left">
+                            <div>
+                              <span class="side-label">All The Latest</span>
+                              <span class="side-title">Blog</span>
+                            </div>
+                          </a>
+                          <a href="blog.html" class="col-lg-6 col-md-12 colors-e top-left">
+                            <div>
+                              <span class="side-label">Documentation</span>
+                              <span class="side-title">Help</span>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="row bg bg-bottom">
+                          <a href="blog.html" class="col-lg-4 col-md-12 colors-e top-left">
+                            <div>
+                              <span class="side-label">Awesome</span>
+                              <span class="side-title">How We Work</span>
+                            </div>
+                          </a>
+                          <a href="blog.html" class="col-lg-4 col-md-12 colors-e top-left">
+                            <div>
+                              <span class="side-label">We Are Designers</span>
+                              <span class="side-title">Who We Are</span>
+                            </div>
+                          </a>
+                          <a href="blog.html" class="col-lg-4 col-md-12 colors-e top-left">
+                            <div>
+                              <span class="side-label">Some Facts</span>
+                              <span class="side-title">Our Numbers</span>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </li>
       </div>
     </div>
   </nav>
@@ -167,7 +224,7 @@
           <div class="row bottom-content">
             <div class="col-lg-4 col-md-12">
               <div class="icon">
-                <i class="li_bulb"></i>
+                <img class="imgs" src="assets/fonts/icon/bulb.png">
               </div>
               <div class="col-content">
                 <h4>Web <span class="highlight">Development</span></h4>
@@ -175,8 +232,8 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-12">
-              <div class="col-icon">
-                <i class="li_t-shirt"></i>
+              <div class="icon">
+                <img class="img" src="assets/fonts/icon/t-shirt.png">
               </div>
               <div class="col-content">
                 <h4>Internet <span class="highlight">Marketing</span></h4>
@@ -184,8 +241,8 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-12">
-              <div class="col-icon">
-                <i class="li_megaphone"></i>
+              <div class="icon">
+                <img class="img" src="assets/fonts/icon/megaphone.png">
               </div>
               <div class="col-content">
                 <h4>Client <span class="highlight">Support</span></h4>
@@ -202,35 +259,35 @@
             <div class="container">
               <h3><span class="highlight">How</span> We Work</h3>
               <div class="row">
-                <div class="col-12 padding-both">
+                <div class="col-md-6 col-md-offset-3">
                   <p class="text-center">Aliquam fermentum massa ac est sollicitudin, at ultricies ligula tristique. Cras finibus, nulla ac convallis feugiat, nisl nisl lobortis est, eget auctor velit magna vel nunc. Donec nec eros rhoncus.</p>
                 </div>
               </div>
               <div class="row icon-set">
                 <div class="col-lg-3 col-md-12 text-center">
                   <p>
-                    <i class="li_eye circle scroll-in-animation background-20 heading player fadeInUp animated css-animation-show" data-animation="fadeInUp"></i>
+                    <i class="animate__animated animate__backInUp li_eye circle background-20 heading player" data-animation="fadeInUp"></i>
                   </p>
                   <p class="title"><span class="underline-text">Awesome</span></p>
                   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
                 <div class="col-lg-3 col-md-12 text-center">
                   <p>
-                    <i class="li_like circle scroll-in-animation background-20 heading player fadeInUp animated css-animation-show" data-animation="fadeInUp"></i>
+                    <i class="li_like circle background-20 heading player animate__animated animate__backInUp" data-animation="fadeInUp"></i>
                   </p>
                   <p class="title"><span class="underline-text">Innovative</span></p>
                   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
                 <div class="col-lg-3 col-md-12 text-center">
                   <p>
-                    <i class="li_paperplane circle scroll-in-animation background-20 heading player fadeInUp animated css-animation-show" data-animation="fadeInUp"></i>
+                    <i class="li_paperplane circle background-20 heading player animate__animated animate__backInUp " data-animation="fadeInUp"></i>
                   </p>
                   <p class="title"><span class="underline-text">Creative</span></p>
                   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
                 <div class="col-lg-3 col-md-12 text-center">
                   <p>
-                    <i class="li_lab circle scroll-in-animation background-20 heading player fadeInUp animated css-animation-show" data-animation="fadeInUp"></i>
+                    <i class="li_lab circle background-20 heading player animate__animated animate__backInUp" data-animation="fadeInUp"></i>
                   </p>
                   <p class="title"><span class="underline-text">Experimental</span></p>
                   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -481,7 +538,7 @@
     </div>
     <div class="slogan">
       <div class="overlay">
-        <div class="content colors-h" style="padding-top: 100px; padding-bottom: 99px;">
+        <div class="content colors-h">
           <div class="container">
             <div class="show-list">
               <div class="show-item">We Are Designers</div>
@@ -599,281 +656,253 @@
                     
                     
                 <div class="grid-item" data-filter="web">
-                    <a class="popupimg" href="assets/images/Portfolio/8.jpg">
+                  <a class="popupimg" href="assets/images/Portfolio/8.jpg">
                     <img src="assets/images/Portfolio/8.jpg">
-                    </a>
-                    <div class="overlay">
-                      <div class="overlay">
-                        <p class="text-center text-uppercase">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                        <div class="separator-small"></div>
-                        <p class="text-center icon">
-                          <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
-                          <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
-                          <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
-                        </p>
-                      </div>
-                    </div>
+                  </a>
+                  <div class="overlay">
+                    <p class="text-center text-uppercase">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="separator-small"></div>
+                    <p class="text-center icon">
+                      <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
+                      <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
+                      <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
+                    </p>
+                  </div>
                 </div>
                     
                     
-                    <div class="grid-item" data-filter="web">
-                    <a class="popupimg" href="assets/images/Portfolio/9.jpg">
+                <div class="grid-item" data-filter="web">
+                  <a class="popupimg" href="assets/images/Portfolio/9.jpg">
                     <img src="assets/images/Portfolio/9.jpg">
-                    </a>
-                    <div class="overlay">
-                      <div class="overlay">
-                        <p class="text-center text-uppercase">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                        <div class="separator-small"></div>
-                        <p class="text-center icon">
-                          <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
-                          <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
-                          <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
-                        </p>
-                      </div>
-                    </div>
-                    </div>
+                  </a>
+                  <div class="overlay">
+                    <p class="text-center text-uppercase">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="separator-small"></div>
+                    <p class="text-center icon">
+                      <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
+                      <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
+                      <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
+                    </p>
+                  </div>
+                </div>
                     
                     
                 <div class="grid-item" data-filter="web">
                     <a class="popupimg" href="assets/images/Portfolio/11.jpg">
-                    <img src="assets/images/Portfolio/11.jpg">
+                      <img src="assets/images/Portfolio/11.jpg">
                     </a>
                     <div class="overlay">
-                      <div class="overlay">
-                        <p class="text-center text-uppercase">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                        <div class="separator-small"></div>
-                        <p class="text-center icon">
-                          <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
-                          <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
-                          <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
-                        </p>
-                      </div>
+                      <p class="text-center text-uppercase">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      </p>
+                      <div class="separator-small"></div>
+                      <p class="text-center icon">
+                        <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
+                        <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
+                        <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
+                      </p>
                     </div>
-                    </div>
+                </div>
                     
                     
-                    <div class="grid-item" data-filter="web">
-                    <a class="popupimg" href="assets/images/Portfolio/12.jpg">
+                <div class="grid-item" data-filter="web">
+                  <a class="popupimg" href="assets/images/Portfolio/12.jpg">
                     <img src="assets/images/Portfolio/12.jpg">
-                    </a>
-                    <div class="overlay">
-                      <div class="overlay">
-                        <p class="text-center text-uppercase">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                        <div class="separator-small"></div>
-                        <p class="text-center icon">
-                          <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
-                          <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
-                          <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
-                        </p>
-                      </div>
-                    </div>
-                    </div>
+                  </a>
+                  <div class="overlay">
+                    <p class="text-center text-uppercase">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="separator-small"></div>
+                    <p class="text-center icon">
+                      <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
+                      <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
+                      <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
+                    </p>
+                  </div>
+                </div>
                     
                     
                 <div class="grid-item" data-filter="video">
                     <a class="popupimg" href="assets/images/Portfolio/2.jpg">
-                    <img src="assets/images/Portfolio/2.jpg">
-                    </a>
-                    <div class="overlay">
-                      <div class="overlay">
-                        <p class="text-center text-uppercase">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                        <div class="separator-small"></div>
-                        <p class="text-center icon">
-                          <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
-                          <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
-                          <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
-                        </p>
-                      </div>
-                    </div>
-                    </div>
-                    
-                <div class="grid-item" data-filter="video">
-                    <a class="popupimg" href="assets/images/Portfolio/4.jpg">
-                    <img src="assets/images/Portfolio/4.jpg">
-                    </a>
-                    <div class="overlay">
-                      <div class="overlay">
-                        <p class="text-center text-uppercase">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                        <div class="separator-small"></div>
-                        <p class="text-center icon">
-                          <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
-                          <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
-                          <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
-                        </p>
-                      </div>
-                    </div>
-                    </div>
-                    
-                    
-                <div class="grid-item" data-filter="video">
-                    <a class="popupimg" href="assets/images/Portfolio/7.jpg">
-                    <img src="assets/images/Portfolio/7.jpg">
-                    </a>
-                    <div class="overlay">
-                      <div class="overlay">
-                        <p class="text-center text-uppercase">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                        <div class="separator-small"></div>
-                        <p class="text-center icon">
-                          <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
-                          <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
-                          <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
-                        </p>
-                      </div>
-                    </div>
-                    </div>
-                    
-                    
-                    <div class="grid-item" data-filter="video">
-                      <a class="popupimg" href="assets/images/Portfolio/9.jpg">
-                        <img src="assets/images/Portfolio/9.jpg">
-                      </a>
-                      <div class="overlay">
-                        <div class="overlay">
-                          <p class="text-center text-uppercase">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                          </p>
-                          <div class="separator-small"></div>
-                          <p class="text-center icon">
-                            <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
-                            <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
-                            <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div class="grid-item" data-filter="photography">
-                      <a class="popupimg" href="assets/images/Portfolio/2.jpg">
                       <img src="assets/images/Portfolio/2.jpg">
-                      </a>
-                      <div class="overlay">
-                        <div class="overlay">
-                          <p class="text-center text-uppercase">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                          </p>
-                          <div class="separator-small"></div>
-                          <p class="text-center icon">
-                            <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
-                            <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
-                            <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
-                          </p>
-                        </div>
-                      </div>
-                      </div>
-                      
-                      
-                      <div class="grid-item" data-filter="photography">
-                      <a class="popupimg" href="assets/images/Portfolio/4.jpg">
-                      <img src="assets/images/Portfolio/4.jpg">
-                      </a>
-                      <div class="overlay">
-                        <div class="overlay">
-                          <p class="text-center text-uppercase">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                          </p>
-                          <div class="separator-small"></div>
-                          <p class="text-center icon">
-                            <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
-                            <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
-                            <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
-                          </p>
-                        </div>
-                      </div>
-                      </div>
-                      
-                      
-                  <div class="grid-item" data-filter="photography">
-                      <a class="popupimg" href="assets/images/Portfolio/6.jpg">
-                      <img src="assets/images/Portfolio/6.jpg">
-                      </a>
-                      <div class="overlay">
-                        <div class="overlay">
-                          <p class="text-center text-uppercase">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                          </p>
-                          <div class="separator-small"></div>
-                          <p class="text-center icon">
-                            <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
-                            <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
-                            <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
-                          </p>
-                        </div>
-                      </div>
-                      </div>
-                      
-                      
-                      <div class="grid-item" data-filter="photography">
-                      <a class="popupimg" href="assets/images/Portfolio/7.jpg">
-                      <img src="assets/images/Portfolio/7.jpg">
-                      </a>
-                      <div class="overlay">
-                        <div class="overlay">
-                          <p class="text-center text-uppercase">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                          </p>
-                          <div class="separator-small"></div>
-                          <p class="text-center icon">
-                            <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
-                            <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
-                            <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
-                          </p>
-                        </div>
-                      </div>
-                      </div>
-                      
-                      
-                  <div class="grid-item" data-filter="photography">
-                      <a class="popupimg" href="assets/images/Portfolio/8.jpg">
-                      <img src="assets/images/Portfolio/8.jpg">
-                      </a>
-                      <div class="overlay">
-                        <div class="overlay">
-                          <p class="text-center text-uppercase">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                          </p>
-                          <div class="separator-small"></div>
-                          <p class="text-center icon">
-                            <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
-                            <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
-                            <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
-                          </p>
-                        </div>
-                      </div>
-                      </div>
-                      
-                      
-                    <div class="grid-item" data-filter="photography">
-                      <a class="popupimg" href="assets/images/Portfolio/10.jpg">
-                        <img src="assets/images/Portfolio/10.jpg">
-                      </a>
+                    </a>
+                  <div class="overlay">
+                    <p class="text-center text-uppercase">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="separator-small"></div>
+                    <p class="text-center icon">
+                      <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
+                      <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
+                      <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
+                    </p>
+                  </div>
+                </div>
+                    
+                <div class="grid-item" data-filter="video">
+                  <a class="popupimg" href="assets/images/Portfolio/4.jpg">
+                    <img src="assets/images/Portfolio/4.jpg">
+                  </a>
+                  <div class="overlay">
+                    <p class="text-center text-uppercase">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="separator-small"></div>
+                    <p class="text-center icon">
+                      <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
+                      <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
+                      <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
+                    </p>
+                  </div>
+                </div>
+                    
+                    
+                <div class="grid-item" data-filter="video">
+                  <a class="popupimg" href="assets/images/Portfolio/7.jpg">
+                    <img src="assets/images/Portfolio/7.jpg">
+                  </a>
+                  <div class="overlay">
+                    <p class="text-center text-uppercase">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="separator-small"></div>
+                    <p class="text-center icon">
+                      <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
+                      <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
+                      <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
+                    </p>
+                  </div>
+                </div>
+                    
+                    
+                <div class="grid-item" data-filter="video">
+                  <a class="popupimg" href="assets/images/Portfolio/9.jpg">
+                    <img src="assets/images/Portfolio/9.jpg">
+                  </a>
+                  <div class="overlay">
+                    <p class="text-center text-uppercase">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="separator-small"></div>
+                    <p class="text-center icon">
+                      <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
+                      <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
+                      <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
+                    </p>
+                  </div>
+                </div>
+                    
+                <div class="grid-item" data-filter="photography">
+                  <a class="popupimg" href="assets/images/Portfolio/2.jpg">
+                    <img src="assets/images/Portfolio/2.jpg">
+                  </a>
                     <div class="overlay">
-                      <div class="overlay">
-                        <p class="text-center text-uppercase">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                        <div class="separator-small"></div>
-                        <p class="text-center icon">
-                          <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
-                          <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
-                          <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
-                        </p>
-                      </div>
+                      <p class="text-center text-uppercase">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      </p>
+                      <div class="separator-small"></div>
+                      <p class="text-center icon">
+                        <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
+                        <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
+                        <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
+                      </p>
                     </div>
+                  </div>
+                      
+                      
+                  <div class="grid-item" data-filter="photography">
+                    <a class="popupimg" href="assets/images/Portfolio/4.jpg">
+                      <img src="assets/images/Portfolio/4.jpg">
+                    </a>
+                    <div class="overlay">
+                      <p class="text-center text-uppercase">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      </p>
+                      <div class="separator-small"></div>
+                      <p class="text-center icon">
+                        <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
+                        <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
+                        <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
+                      </p>
                     </div>
+                  </div>
+                      
+                      
+                  <div class="grid-item" data-filter="photography">
+                    <a class="popupimg" href="assets/images/Portfolio/6.jpg">
+                      <img src="assets/images/Portfolio/6.jpg">
+                    </a>
+                    <div class="overlay">
+                      <p class="text-center text-uppercase">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      </p>
+                      <div class="separator-small"></div>
+                      <p class="text-center icon">
+                        <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
+                        <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
+                        <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
+                      </p>
+                    </div>
+                  </div>
+                      
+                      
+                  <div class="grid-item" data-filter="photography">
+                    <a class="popupimg" href="assets/images/Portfolio/7.jpg">
+                      <img src="assets/images/Portfolio/7.jpg">
+                    </a>
+                    <div class="overlay">
+                      <p class="text-center text-uppercase">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      </p>
+                      <div class="separator-small"></div>
+                      <p class="text-center icon">
+                        <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
+                        <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
+                        <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
+                      </p>
+                    </div>
+                  </div>
+                      
+                      
+                  <div class="grid-item" data-filter="photography">
+                    <a class="popupimg" href="assets/images/Portfolio/8.jpg">
+                      <img src="assets/images/Portfolio/8.jpg">
+                    </a>
+                    <div class="overlay">
+                      <p class="text-center text-uppercase">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      </p>
+                      <div class="separator-small"></div>
+                      <p class="text-center icon">
+                        <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
+                        <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
+                        <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
+                      </p>
+                    </div>
+                  </div>
+                      
+                      
+                <div class="grid-item" data-filter="photography">
+                  <a class="popupimg" href="assets/images/Portfolio/10.jpg">
+                    <img src="assets/images/Portfolio/10.jpg">
+                  </a>
+                  <div class="overlay">
+                    <p class="text-center text-uppercase">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="separator-small"></div>
+                    <p class="text-center icon">
+                      <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook heading-b"></i></a>
+                      <a target="_blank" href="http://www.youtube.com/"><i class="fa-brands fa-youtube heading-b"></i></a>
+                      <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github heading-b"></i></a>
+                    </p>
+                  </div>
+                </div>
                     
                     
                 <div class="grid-item" data-filter="photography">
@@ -1095,32 +1124,40 @@
               <div class="row process-row">
 
                 <div class="col-lg-3 col-md-12 process-step">
-									<div class="process-box"><i class="li_search heading"></i></div>
+									<div class="process-box">
+                    <img src="assets/fonts/icon/search.png">
+                  </div>
 									<p class="title">Research</p>
 									<p class="text-center">Vestibulum placerat, ipsum vel mollis ornare, libero ex dapibus diam, gravida tempor.</p>
 								</div>
 
                 <div class="col-lg-3 col-md-12 process-step">
-									<div class="process-box"><i class="li_pen heading"></i></div>
+									<div class="process-box">
+                    <img src="assets/fonts/icon/pen.png">
+                  </div>
 									<p class="title">Concept</p>
 									<p class="text-center">Vestibulum vel dictum dolor, eget luctus risus. Nullam scelerisque viverra nisl et vehicula, in ut tellus.</p>
 								</div>
 
                 <div class="col-lg-3 col-md-123 process-step">
-									<div class="process-box"><i class="li_settings heading"></i></div>
+									<div class="process-box">
+                    <img src="assets/fonts/icon/settings.png">
+                  </div>
 									<p class="title">Develop</p>
 									<p class="text-center">Mauris venenatis vulputate ligula eu finibus. Donec pretium libero lacus, vitae maximus purus dapibus.</p>
 								</div>
 
                 <div class="col-lg-3 col-md-12 process-step">
-									<div class="process-box"><i class="li_paperplane heading"></i></div>
+									<div class="process-box">
+                    <img src="assets/fonts/icon/paperplane.png">
+                  </div>
 									<p class="title">Test</p>
 									<p class="text-center">Proin gravida, est sed vestibulum cursus, enim libero sollicitudin lacus, vel ornare nunc.</p>
 								</div>
 
               </div>
               <div class="row">
-                <div class="col-lg-3 col-md-12 col-md-offset-3">
+                <div class="col-md-6 col-md-offset-3">
                   <p class="text-center">Aliquam fermentum massa ac est sollicitudin, at ultricies ligula tristique. Cras finibus, nulla ac convallis feugiat, nisl nisl lobortis est, eget auctor velit magna vel nunc. Donec nec eros rhoncus.</p>
                 </div>
               </div>
@@ -1136,19 +1173,19 @@
               <p class="title"><span class="highlight">Some of the</span> cool facts about us</p>
               <div class="row counters">
                 <div class="col-md-3 counter background-25-b">
-                  <div class="count player heading background-10-light">210</div>
+                  <div id="num1" class="count player heading background-10-light">210</div>
                   <div class="caption">Projects</div>
                 </div>
                 <div class="col-md-3 counter background-35-h">
-                  <div class="count player heading background-10-light">120</div>
+                  <div id="num2" class="count player heading background-10-light">120</div>
                   <div class="caption">Clients</div>
                 </div>
                 <div class="col-md-3 counter background-25-b">
-                  <div class="count player heading background-10-light">3459</div>
+                  <div id="num3" class="count player heading background-10-light">3459</div>
                   <div class="caption">Followers</div>
                 </div>
                 <div class="col-md-3 counter background-35-h">
-                  <div class="count player heading background-10-light">7</div>
+                  <div id="num4" class="count player heading background-10-light">7</div>
                   <div class="caption">Years</div>
                 </div>
               </div>
@@ -1264,7 +1301,7 @@
             <p class="header-details">Keep In Touch</p>
             <div class="row">
               <div class="col-lg-6 col-md-12">
-                <div class="text-right scroll-in-animation player fadeInLeft animated css-animation-show" data-animation="fadeInLeft">
+                <div class="text-right wow player fadeInLeft" data-animation="fadeInLeft">
                   <p class="big-font uppercase">
                     Tel: <strong class="highlight">+7 (781) 503-1810</strong>
                   </p>
@@ -1286,7 +1323,7 @@
                 </div>
               </div>
               <div class="col-lg-6 col-md-12">
-                <div class="text-left scroll-in-animation player fadeInRight animated css-animation-show" data-animation="fadeInRight">
+                <div class="text-left player wow fadeInRight" data-animation="fadeInRight">
                   <form class="ajax-form" data-message-class="colors-d background-95 heading border" action="contact.php" method="post" novalidate="novalidate">
                     <div class="row">
                       <div class="col-md-6 control-group">
@@ -1320,7 +1357,7 @@
       </div>
     </div>
     <footer class="colors-g page-transition non-preloading">
-			<div class="container scroll-in-animation player fadeInDown animated css-animation-show" data-animation="fadeInDown">
+			<div class="container wow scroll-in-animation player animate__animated animate__fadeInDown" data-animation="fadeInDown">
 				<div class="row">
 					<div class="col-lg-3 col-md-12">
 						<h4>SKROLL<span class="highlight">EX</span></h4>
@@ -1394,52 +1431,6 @@
 </div>
     
 
-<!-- Modal Popup Section -->
-    <div class="ext-nav background-95-h page-transition show">
-      <div class="view half-height">
-        <img alt="" class="bg static" src="images/bg/JohnKraus/2.jpg" style="transform: translate3d(-33.5px, -495.333px, 0px) scale(0.965104); opacity: 1; transform-origin: center center 0px;">
-        <div class="content no-top-padding no-bottom-padding  full-height">
-          <div class="container-fluid  full-height">
-            <div class="row full-height">
-              <a href="blog.html" class="col-md-6 colors-e background-95-e full-height">
-                <div>
-                  <span class="side-label">All The Latest</span>
-                  <span class="side-title">Blog</span>
-                </div>
-              </a>
-              <a href="help.html" class="col-md-6 colors-f background-95-f full-height">
-                <div>
-                  <span class="side-label">Documentation</span>
-                  <span class="side-title">Help</span>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid  half-height">
-        <div class="row full-height">
-          <a href="#how-we-work" class="col-md-4 colors-g background-solid full-height border-bottom border-lite">
-            <div>
-              <span class="side-label">Awesome</span>
-              <span class="side-title">How We Work</span>
-            </div>
-          </a>
-          <a href="#who-we-are" class="col-md-4 colors-g background-solid full-height border-bottom border-left border-lite">
-            <div>
-              <span class="side-label">We Are Designers</span>
-              <span class="side-title">Who We Are</span>
-            </div>
-          </a>
-          <a href="#numbers" class="col-md-4 colors-g background-solid full-height border-bottom border-left border-lite">
-            <div>
-              <span class="side-label">Some Facts</span>
-              <span class="side-title">Our Numbers</span>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
 
   <!-- jquery  -->
   <script src="assets/js/jquery.min.js"></script>
@@ -1451,6 +1442,8 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'></script><script  src="./script.js"></script>
   <script src="assets/js/jquery.mkinfinite.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/countMe.min.js"></script>
   <script src="assets/js/main.js"></script>
 
   <script>

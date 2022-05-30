@@ -99,7 +99,6 @@
             p{
                 margin-top: -10px;
                 margin-bottom: 30px;
-                font-family: 'Raleway',Arial,Helvetica,sans-serif;
                 font-size: 13px;
                 letter-spacing: 1.2px;
                 font-weight: 700;
@@ -119,10 +118,23 @@
             }
             .bottom-content{
                 .icon{
+                    width: 70px;
+                    display: inline-block;
                     float: left;
+                    padding-top: 25px;
+                    vertical-align: middle;
+                    .imgs{
+                        width: 60%;
+                    }
+                    .img{
+                        width: 80%;
+                    }
+
                 }
                 .col-content{
+                    width: calc(100% - 70px);
                     float: right;
+                    padding-left: 15px;
                     h4,p{
                         color: #434343;
                         text-align: left;
@@ -130,11 +142,17 @@
                     h4{
                         font-size: 20px;
                         line-height: 24px;
+                        @media (max-width: 991px) {
+                            font-size: 15px;
+                            line-height: 18px;
+                            letter-spacing: 2px;
+                        }
                     }
                     P{
                         color: #767676;
                         font-size: 13px;
                         line-height: 22px;
+                        font-weight: 400;
                         margin-top: 15px;
                         margin-bottom: 11px;
                     }
@@ -175,7 +193,27 @@
                         text-decoration: none;
                         outline: 0;
                         border: 1px solid #fff;
+                        transition: all .5s ease;
+                        &:hover{
+                            transform: scale(0.7);
+                        }
                       }
+                }
+                .icon-set{
+                    p{
+                        .li_eye:before{
+                            content: url(../fonts/icon/eye.png);
+                        }
+                        .li_like:before{
+                            content: url(../fonts/icon/like.png);
+                        }
+                        .li_paperplane:before{
+                            content: url(../fonts/icon/paperplane.png);
+                        }
+                        .li_lab:before{
+                            content: url(../fonts/icon/lab.png);
+                        }
+                    }
                 }
 
             }

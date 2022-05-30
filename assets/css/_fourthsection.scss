@@ -68,10 +68,10 @@
     }
 }
 .slogan{
-    background: url(../images/art-brush-colors-3112.jpg) no-repeat;
-    background-position: center center;
-    background-size: cover;
     .overlay{
         background-color: rgba(14,14,15,.2);
+        .content{
+            padding: 100px 0;
+        }
     }
 }
