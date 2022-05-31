@@ -342,3 +342,10 @@ $(document).ready(function(){
 	$("#num3").countMe(40, 1);
 	$("#num4").countMe(100,200);
  }
+
+ // Wow Js
+new WOW().init();
+$('#nav-onChecked').click(function () {
+    $(this).toggleClass('active');
+    $(".sub_nav").toggleClass('show');
+});

@@ -76,6 +76,23 @@
                 padding: 0 15px;
                 letter-spacing: 1.2px;
               }
+              nav{
+                  .nav-tabs{
+                    border-bottom: apx solid rgba(57,57,57,.3);
+                      .nav-link{
+                          color: #cb875f;
+                      }
+                      .nav-link.active{
+                        color: #767676;
+                    }
+                  }
+              }
+              .tab-content{
+                  p{
+                      text-align: left;
+                      color: #767676;
+                  }
+              }
 
         }
     }
