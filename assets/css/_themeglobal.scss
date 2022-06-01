@@ -267,3 +267,17 @@
       background-color: rgba(255,255,255,.13);
     }
   }
+
+  .br{
+    border-left: 1px solid rgba(255,255,255,.08);
+    border-right: 1px solid rgba(255,255,255,.08);
+    @media (max-width: 991px) {
+    border-top: 1px solid rgba(255,255,255,.08);
+    border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+  }
+  .full-para{
+    @media (max-width: 991px) {
+      width: 100%;
+    }
+  }

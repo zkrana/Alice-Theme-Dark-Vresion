@@ -349,3 +349,21 @@ $('#nav-onChecked').click(function () {
     $(this).toggleClass('active');
     $(".sub_nav").toggleClass('show');
 });
+
+
+
+$(".bar").each(function(){
+	$(this).find(".bar-inner").animate({
+	  width: $(this).attr("data-width")
+	},2000)
+  });
+  
+  $("#toggle").click(function() {
+	$(this).toggleClass("on");
+	$("#menu").slideToggle();
+  });
+
+  $("#toggle-modal").click(function() {
+	$(this).toggleClass("on");
+	$("#menu-modal").slideToggle();
+  });

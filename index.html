@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Theme ALice</title>
+  <title>Theme Alice</title>
 
   <!-- google font  -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -13,10 +13,9 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
   <!-- custom css  -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet">
-  <link href="assets/css/linecons.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -47,10 +46,9 @@
   <nav class="navbar navbar-default navbar-fixed-top page-transition colors-e background-solid" role="navigation" id="top-nav">
     <div class="container">
       <div class="navbar-header">
-        <a class="menu-toggle ext-nav-toggle visible-xs-block" data-target=".ext-nav" href="#"><span></span></a>
-        <a class="menu-toggle navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" href="#" aria-expanded="false"><span></span></a>
         <a class="navbar-brand" href="">SKROLL<span class="highlight">EX</span></a>
       </div>
+
       <div class="navigation navbar-collapse" aria-expanded="false">
         <ul class="menu_ul nav navbar-nav navbar-right">
           <li class="active"><a href="#one" class="hover-effect active">Home</a></li>
@@ -63,63 +61,81 @@
           <li><a href="#eight" class="hover-effect">Contact</a></li>
         </ul>
       </div>
-      <div class="modal-box">
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          Launch demo modal
-        </button>
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <!-- Modal Popup Section -->
-                    <div class="full-modal">
-                      <div class="container-fluid">
-                        <div class="row bg">
-                          <a href="blog.html" class="col-lg-6 background-95-e col-md-12 colors-e top-left">
-                                <div>
-                                  <span class="side-label">All The Latest</span>
-                                  <span class="side-title">Blog</span>
-                                </div>
-                          </a>
-                          <a href="blog.html" class="col-lg-6 col-md-12 background-95-f top-left">
-                            <div>
-                              <span class="side-label">Documentation</span>
-                              <span class="side-title another">Help</span>
-                            </div>
-                          </a>
-                        </div>
-                        <div class="row bg bg-bottom">
-                          <a href="blog.html" class="col-lg-4 col-md-12 bg-solid top-left">
-                            <div>
-                              <span class="side-label">Awesome</span>
-                              <span class="side-title another">How We Work</span>
-                            </div>
-                          </a>
-                          <a href="blog.html" class="col-lg-4 col-md-12 bg-solid top-left">
-                            <div>
-                              <span class="side-label">We Are Designers</span>
-                              <span class="side-title another">Who We Are</span>
-                            </div>
-                          </a>
-                          <a href="blog.html" class="col-lg-4 col-md-12 bg-solid top-left">
-                            <div>
-                              <span class="side-label">Some Facts</span>
-                              <span class="side-title another">Our Numbers</span>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
+      <div class="toggle-all d-flex">
+        <div class="toggle-nav">
+          <div id="toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
+          <div id="menu">
+            <ul class="menu_ul nav navbar-nav navbar-right">
+              <li class="active"><a href="#one" class="hover-effect active">Home</a></li>
+              <li><a href="#two" class="hover-effect">About</a></li>
+              <li><a href="#three" class="hover-effect">Team</a></li>
+              <li><a href="#four" class="hover-effect">Services</a></li>
+              <li><a href="#five" class="hover-effect">Work</a></li>
+              <li><a href="#six" class="hover-effect">Process</a></li>
+              <li><a href="#seven" class="hover-effect">Skills</a></li>
+              <li><a href="#eight" class="hover-effect">Contact</a></li>
+            </ul>
           </div>
         </div>
-      </li>
+
+      <div class="modal-box">
+        <div id="toggle-modal">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+        </div>
+        <div id="menu-modal">
+                <!-- Modal -->
+              <div class="modal-content">
+                  <div class="modals">
+                    <!-- Modal Popup Section -->
+                      <div class="full-modal">
+                        <div class="container-fluid">
+                          <div class="row bg">
+                            <a href="blog.html" class="col-lg-6 background-95-e col-md-12 colors-e top-left">
+                                  <div>
+                                    <span class="side-label">All The Latest</span>
+                                    <span class="side-title">Blog</span>
+                                  </div>
+                            </a>
+                            <a href="blog.html" class="col-lg-6 col-md-12 background-95-f top-left">
+                              <div>
+                                <span class="side-label">Documentation</span>
+                                <span class="side-title another">Help</span>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="row bg bg-bottom">
+                            <a href="blog.html" class="col-lg-4 col-md-12 bg-solid top-left">
+                              <div>
+                                <span class="side-label">Awesome</span>
+                                <span class="side-title another">How We Work</span>
+                              </div>
+                            </a>
+                            <a href="blog.html" class="col-lg-4 col-md-12 bg-solid top-left br">
+                              <div>
+                                <span class="side-label">We Are Designers</span>
+                                <span class="side-title another">Who We Are</span>
+                              </div>
+                            </a>
+                            <a href="blog.html" class="col-lg-4 col-md-12 bg-solid top-left">
+                              <div>
+                                <span class="side-label">Some Facts</span>
+                                <span class="side-title another">Our Numbers</span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
       </div>
     </div>
   </nav>
@@ -258,35 +274,35 @@
             <div class="container">
               <h3><span class="highlight">How</span> We Work</h3>
               <div class="row">
-                <div class="col-md-6 col-md-offset-3">
+                <div class="col-md-6 col-md-offset-3 full-para">
                   <p class="text-center">Aliquam fermentum massa ac est sollicitudin, at ultricies ligula tristique. Cras finibus, nulla ac convallis feugiat, nisl nisl lobortis est, eget auctor velit magna vel nunc. Donec nec eros rhoncus.</p>
                 </div>
               </div>
               <div class="row icon-set">
                 <div class="col-lg-3 col-md-12 text-center">
                   <p>
-                    <i class="wow fadeInUp li_eye circle background-20 heading player" data-animation="fadeInUp"></i>
+                    <i class="wow li_eye circle background-20 heading player animate__animated animate__fadeInUp" data-animation="fadeInUp"></i>
                   </p>
                   <p class="title"><span class="underline-text">Awesome</span></p>
                   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
                 <div class="col-lg-3 col-md-12 text-center">
                   <p>
-                    <i class="li_like circle background-20 heading player wow fadeInUp" data-animation="fadeInUp"></i>
+                    <i class="li_like circle background-20 heading player wow animate__animated animate__fadeInUp" data-animation="fadeInUp"></i>
                   </p>
                   <p class="title"><span class="underline-text">Innovative</span></p>
                   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
                 <div class="col-lg-3 col-md-12 text-center">
                   <p>
-                    <i class="li_paperplane circle background-20 heading player wow fadeInUp" data-animation="fadeInUp"></i>
+                    <i class="li_paperplane circle background-20 heading player wow animate__animated animate__fadeInUp" data-animation="fadeInUp"></i>
                   </p>
                   <p class="title"><span class="underline-text">Creative</span></p>
                   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
                 <div class="col-lg-3 col-md-12 text-center">
                   <p>
-                    <i class="li_lab circle background-20 heading player wow fadeInUp" data-animation="fadeInUp"></i>
+                    <i class="li_lab circle background-20 heading player wow animate__animated animate__fadeInUp" data-animation="fadeInUp"></i>
                   </p>
                   <p class="title"><span class="underline-text">Experimental</span></p>
                   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -539,19 +555,26 @@
       <div class="overlay">
         <div class="content colors-h">
           <div class="container">
-            <div class="show-list">
-              <div class="show-item">We Are Designers</div>
-              <div class="show-item">We Are Programmers</div>
-              <div class="show-item">We Are Coders</div>
-              <div class="show-item">We Are Developers</div>
-              <div class="show-item current">We Are Creative</div>
-            </div></div>
+            <div class="text-animation">
+              <h3 class="myText">
+                <ul class="texts" style="display: none;">
+                  <li data-out-effect="fadeOut" 
+                  data-out-shuffle="true">We Are Designers</li>
+                  <li data-in-effect="fadeIn" 
+                  data-in-shuffle="true">We Are Programmers</li>
+                  <li class="current">We Are Coders</li>
+                  <li class="">We Are Developers</li>
+                  <li class="">We Are Creative</li>
+                </ul>
+              </h3>
+          </div>
+          </div>
             <div class="separator"></div>
             <p class="text-center big-font">
               <em>— Lorem ipsum dolor sit amet —</em>
             </p>
           </div>
-      </div>
+        </div>
       </div>
     </div>
   </section>
@@ -1185,7 +1208,7 @@
               <div class="col-12 padding-both">
                 <h2>Our<span class="highlight"> Skills</span></h2>
                 <p class="text-uppercase header-details"> <span class="highlight">Our Main </span> Skills</p>
-                <p class="first-para colors-e">
+                <p class="first-para">
                   Aliquam scelerisque vestibulum mi, eu commodo sem vestibulum convallis. Proin sed mi vehicula, porta nisi eu, facilisis nisl. Etiam tristique mi nec fermentum vestibulum. Nullam in nisi ut tellus laoreet ultrices. In ullamcorper dictum interdum vestibulum etiam tristique mi nec fermentum commodo sem vestibulum laoreet ultrices.
                 </p>
               </div>
@@ -1229,43 +1252,65 @@
                 </div>
 							</div>
               <div class="col-lg-6 col-md-12">
-								<div class="skillbars">
-									<div class="skillbar clearfix background-d player" data-percent="40%">
-										<div class="skillbar-title background-b heading-b"><span>HTML5</span></div>
-										<div class="skillbar-bar background-b" style="width: 40%;"></div>
-										<div class="skill-bar-percent heading-d">40%</div>
-									</div>
-									<div class="skillbar clearfix background-d player" data-percent="45%">
-										<div class="skillbar-title background-c heading-c"><span>CSS3</span></div>
-										<div class="skillbar-bar background-c" style="width: 45%;"></div>
-										<div class="skill-bar-percent heading-d">45%</div>
-									</div>
-									<div class="skillbar clearfix background-d player" data-percent="50%">
-										<div class="skillbar-title background-b heading-b"><span>jQuery</span></div>
-										<div class="skillbar-bar background-b" style="width: 50%;"></div>
-										<div class="skill-bar-percent heading-d">50%</div>
-									</div>
-									<div class="skillbar clearfix background-d player" data-percent="40%">
-										<div class="skillbar-title background-c heading-c"><span>PHP</span></div>
-										<div class="skillbar-bar background-c" style="width: 40%;"></div>
-										<div class="skill-bar-percent heading-d">40%</div>
-									</div>
-									<div class="skillbar clearfix background-d player" data-percent="90%">
-										<div class="skillbar-title background-b heading-b"><span>Wordpress</span></div>
-										<div class="skillbar-bar background-b" style="width: 90%;"></div>
-										<div class="skill-bar-percent heading-d">90%</div>
-									</div>
-									<div class="skillbar clearfix background-d player" data-percent="75%">
-										<div class="skillbar-title background-c heading-c"><span>SEO</span></div>
-										<div class="skillbar-bar background-c" style="width: 75%;"></div>
-										<div class="skill-bar-percent heading-d">75%</div>
-									</div>
-									<div class="skillbar clearfix background-d player" data-percent="70%">
-										<div class="skillbar-title background-b heading-b"><span>Photoshop</span></div>
-										<div class="skillbar-bar background-b" style="width: 70%;"></div>
-										<div class="skill-bar-percent heading-d">70%</div>
-									</div>
-								</div>
+                <div class="container">
+                  <div class="bar-1">
+                  
+                  <div class="bar" data-width="40%">
+                    <div class="bar-inner">
+                      <div class="title">HTML5</div>
+                    </div>
+                    <div class="bar-percent">40%</div>
+                  </div>
+                  </div>
+                  <div class="bar-1">
+                  <div class="bar" data-width="45%">
+                    <div class="bar-inner">
+                      <div class="title">CSS3</div>
+                    </div>
+                    <div class="bar-percent">45%</div>
+                    </div>
+                  </div>
+                  <div class="bar-1">
+                  <div class="bar" data-width="50%">
+                    <div class="bar-inner">
+                      <div class="title">Jquery</div>
+                    </div>
+                    <div class="bar-percent">50%</div>
+                    </div>
+                  </div>
+                  <div class="bar-1">
+                  <div class="bar" data-width="40%">
+                    <div class="bar-inner">
+                      <div class="title">PHP</div>
+                    </div>
+                    <div class="bar-percent">40%</div>
+                    </div>
+                  </div>
+                  <div class="bar-1">
+                    <div class="bar" data-width="90%">
+                      <div class="bar-inner">
+                        <div class="title">Wordpress</div>
+                      </div>
+                        <div class="bar-percent">90%</div>
+                      </div>
+                    </div>
+                    <div class="bar-1">
+                      <div class="bar" data-width="75%">
+                        <div class="bar-inner">
+                          <div class="title">SEO</div>
+                        </div>
+                        <div class="bar-percent">75%</div>
+                      </div>
+                    </div>
+                    <div class="bar-1">
+                      <div class="bar" data-width="70%">
+                        <div class="bar-inner">
+                          <div class="title">Photoshop</div>
+                        </div>
+                        <div class="bar-percent">70%</div>
+                      </div>
+                    </div>
+                </div>
 							</div>
             </div>
           </div>
@@ -1282,7 +1327,7 @@
             <p class="header-details">Keep In Touch</p>
             <div class="row">
               <div class="col-lg-6 col-md-12">
-                <div class="text-right wow player fadeInLeft" data-animation="fadeInLeft">
+                <div class="text-right wow player animate__animated animate__fadeInLeft" data-animation="fadeInLeft">
                   <p class="big-font uppercase">
                     Tel: <strong class="highlight">+7 (781) 503-1810</strong>
                   </p>
@@ -1304,7 +1349,7 @@
                 </div>
               </div>
               <div class="col-lg-6 col-md-12">
-                <div class="text-left player wow fadeInRight" data-animation="fadeInRight">
+                <div class="text-left player wow animate__animated animate__fadeInRight" data-animation="fadeInRight">
                   <form class="ajax-form" data-message-class="colors-d background-95 heading border" action="contact.php" method="post" novalidate="novalidate">
                     <div class="row">
                       <div class="col-md-6 control-group">
