@@ -1,4 +1,30 @@
 
+// Scroll with indicator
+$(window).scroll(function() {
+	var windscroll = $(window).scrollTop();
+	if (windscroll >= 10) {
+		$('section').each(function(i) {
+	// The number at the end of the next line is how pany pixels you from the top you want it to activate.
+			if ($(this).position().top <= windscroll - 0) {
+				$('.indicator li.active').removeClass('active');
+				$('.indicator li').eq(i).addClass('active');
+			}
+		});
+
+	} else {
+
+		$('.indicator li.active').removeClass('active');
+		$('.indicator li:first').addClass('active');
+	}
+
+	}).scroll();
+
+$(document).ready(function () {
+  $('.myText').textillate();
+
+});
+
+
 // backToTop Scroll 
 var backToTopBtn = $('#backToTop');
 $(window).scroll(function() {
@@ -15,7 +41,7 @@ backToTopBtn.on('click', function(e) {
 });
 
 
-// Filter Script
+// Filter Script Start
 $(document).ready( function() {
 
 	var itemSelector = '.grid-item'; 
@@ -178,6 +204,11 @@ $('.popupimg').magnificPopup({
 
 });
 
+
+// Filter script end
+
+// Image background animation 
+
 $(document).ready(function(){
 	$('.contact').mkinfinite({
 	  maxZoom:       1.4,
@@ -335,6 +366,9 @@ $(document).ready(function(){
 	});
   });
 
+
+  // Number Counter
+
   window.onload = ()=>{
 	// $(selector).countMe(delay,speed)
 	$("#num1").countMe(40, 1);
@@ -350,7 +384,7 @@ $('#nav-onChecked').click(function () {
     $(".sub_nav").toggleClass('show');
 });
 
-
+// Toggle bar
 
 $(".bar").each(function(){
 	$(this).find(".bar-inner").animate({
