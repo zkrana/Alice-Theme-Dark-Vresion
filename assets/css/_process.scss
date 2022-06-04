@@ -5,10 +5,10 @@
         height: 100%;
         padding-top: 70px;
         padding-bottom: 70px;
-        background-color: rgba(255,255,255,.93);
+        background-color: #141414;
         .content{
-            h2,.header-details{
-                color: #434343;
+            .header-details{
+                letter-spacing: 1.2px;
             }
             .first-para{
                 font-size: 16px;
@@ -16,7 +16,6 @@
                 font-weight: 400;
                 letter-spacing: 1.2px;
                 padding-top: 20px;
-                color: #767676;
             }
 
             .process-row{
@@ -44,21 +43,19 @@
                         position: relative;
                         width: 150px;
                         height: 150px;
-                        background-color: #fff;
                         text-align: center;
                         padding: 0;
                         font-size: 36px;
                         line-height: 150px;
                         border-radius: 15px;
                         border: 1px solid;
-                        border-color: rgba(118,118,118,.7);
+                        border-color: rgba(223,223,223,.7);
                         overflow: hidden;
                         margin: 0 auto;
                         z-index: 12;
                       }
                       .title {
-                          font-family: 'Raleway';
-                        color: #434343;
+                        font-family: 'Raleway';
                         margin-top: 15px;
                         margin-bottom: 15px;
                         @media (max-width: 991px) {
@@ -66,31 +63,35 @@
                         }
                       }
                       .text-center{
-                        color: #767676;
+                        color: #dfdfdf;
                         padding: 0 15px;
                       }
                   }
             }
             .text-center{
-                color: #767676;
                 padding: 0 15px;
                 letter-spacing: 1.2px;
               }
               nav{
                   .nav-tabs{
-                    border-bottom: apx solid rgba(57,57,57,.3);
+                    border-bottom: 1px solid rgba(57,57,57,.3);
                       .nav-link{
                           color: #cb875f;
+                          &:hover{
+                              border: none;
+                          }
                       }
                       .nav-link.active{
-                        color: #767676;
+                        color: #afafaf;
+                        background-color: rgba(57,57,57,.3);
+                        border: none;
                     }
                   }
               }
               .tab-content{
                   p{
                       text-align: left;
-                      color: #767676;
+                      color: #afafaf;
                   }
               }
 

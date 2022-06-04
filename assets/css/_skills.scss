@@ -7,7 +7,6 @@
             height: 100%;
             padding-top: 70px;
             padding-bottom: 70px;
-            background-color: rgba(255, 255, 255, 0.9);
             .content{
                 .widget-tabs {
                     border-radius: 4px 4px 0 0;
@@ -34,58 +33,50 @@
                         }
                       }
                   }
-                  .title {
-                    font-weight: 700;
-                    font-size: 13px;
-                    color: #ffffff;
-                    text-align: left;
-                    display: block;
-                    padding: 0 20px;
-                    width: 110px;
-                    height: 22px;
-                    background-color: rgba(97,94,90,.82);
-                    line-height: 22px;
-                    border-top-left-radius: 3px;
-                    border-bottom-left-radius: 3px;
-
-                  }
-                  
-                  .bar {
-                    width: 90%;
-                    height: 22px;
-                    background-color: rgba(179,119,82,.82);
-                    border-radius: 5px;
-                    position: relative;
-                    transition: all 2s linear;
-                  }
-                  
-                  .bar-1,
-                  .my-skills {
+                  .bar-1{
                     width: 100%;
                     margin: 10px auto 25px;
-                  }
-                  
-                  .bar-inner {
-                    width: 0;
-                    height: 22px;
-                    line-height: 35px;
-                    background-color: rgba(97,94,90,.82);
-                    border-radius: 5px 0 0 5px;
-                    &:nth-child(2n) {
-                        background-color: rgba(255, 128, 0, 0.82);
+                    .bar {
+                      width: 90%;
+                      height: 22px;
+                      background-color: rgba(77,56,36,.82);
+                      border-radius: 5px;
+                      position: relative;
+                      transition: all 2s linear;
+                      .bar-inner {
+                        width: 0;
+                        height: 22px;
+                        line-height: 35px;
+                        background-color: rgba(71,67,64,.82);
+                        border-radius: 5px 0 0 5px;
+                        &:nth-child(2n) {
+                            background-color: rgba(255, 128, 0, 0.82);
+                          }
+                          .title {
+                            font-weight: 700;
+                            font-size: 13px;
+                            color: #ffffff;
+                            text-align: left;
+                            display: block;
+                            padding: 0 20px;
+                            width: 110px;
+                            height: 22px;
+                            background-color: rgba(97,94,90,.82);
+                            line-height: 22px;
+                            border-top-left-radius: 3px;
+                            border-bottom-left-radius: 3px;
+        
+                          }
                       }
-                  }
-                  
-                  .bar-percent {
-                    position: absolute;
-                    right: 10px;
-                    top: 0;
-                    font-size: 13px;
-                    font-weight: 700;
-                  }
-                  
-                  
-
+                      .bar-percent {
+                        position: absolute;
+                        right: 10px;
+                        top: 0;
+                        font-size: 13px;
+                        font-weight: 700;
+                      }
+                    }
+                  }    
             }
         }
     }

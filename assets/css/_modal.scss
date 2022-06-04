@@ -1,147 +1,151 @@
 .toggle-all{
-  width: 150px;
+  width: 120px;
   display: flex;
   float: right;
-  @media (min-width: 767px) and (max-width: 991px) {
+  @media (min-width: 768px) and (max-width: 991px) {
     width: 60px;
   }
-
-.modal-box{
-  display: flex;
-  margin-left: 30%;
-  margin-top: 5px;
-  cursor: pointer;
-  @media (min-width: 767px) and (max-width: 991px) {
-    text-align: right;
+  @media (max-width: 768px) {
+    width: 140px;
   }
 
-  #toggle-modal {
-    width: 28px;
-    height: 30px;
-    margin: 10px auto;
-  }
+  .modal-box{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 5px;
+    cursor: pointer;
+    @media (min-width: 767px) and (max-width: 991px) {
+      text-align: right;
+    }
   
-  #toggle-modal div {
-    width: 100%;
-    height: 2px;
-    background: rgb(41, 5, 5);
-    margin: 4px auto;
-    transition: all 0.3s;
-    backface-visibility: hidden;
-  }
-  
-  #toggle-modal.on .one {
-    transform: rotate(45deg) translate(2px, 2px);
-  }
-  
-  #toggle-modal.on .two {
-    opacity: 0;
-  }
-  
-  #toggle-modal.on .three {
-    transform: rotate(-45deg) translate(6px, -7px);
-  }
-  
-  #menu-modal {
-    position: absolute;
-    left: 0;
-    top: 65px;
-    color: white;
-    border: 1px solid white;
-    width: 100%;
-    height: 100vh;
-    padding: 10px;
-    background-color: #cb875f;
-    border-radius: 3px;
-    line-height: 100px;
-    text-align: center;
-    margin: auto;
-    display: none;
-  }
+    #toggle-modal {
+      width: 28px;
+      height: 30px;
+      margin: 10px auto;
 
-.modal-content{
-  height: calc(100vh - 50px);
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 65px;
-  .full-modal{
-    padding: 0;
-
-    .container-fluid{
-      padding: 0;
-      margin: 0;
-      .bg{
+      div {
         width: 100%;
-        height: 50vh;
-        background-image: url(../images/Modal/2.jpg);
-        background-size: cover;
-        background-position: center center;
-        padding: 0;
-        margin: 0;
-  
-        .top-left{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          position: relative;
-          &:hover{
-            opacity: 1;
-            transform: translateX(0px);
-          }
-          div{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            max-width: none;
-            line-height: 30px;
-  
-            .side-label{
-              font-size: 13px;
-              line-height: 22px;
-              font-weight: 400;
-              display: block;
-              color: #cb875f;
-              text-align: left;
-            }
-            .side-title{
-              font-size: 30px;
-              font-weight: 800;
-              position: relative;
-              text-align: left;
-              &:hover:before {
-                width: 20px;
-                text-align: right;
-                margin-right: 5px;
-                margin-left: -25px;
-                content: '[';
-                transform: translateX(20px);
-              }
-              &:hover:after {
-                width: 20px;
-                text-align: left;
-                margin-left: 5px;
-                margin-right: -25px;
-                content: ']';
-                transform: translateX(-20px);
-              }
-            }
-            .another{
-              color: #fff;
-            }
-          }
-        }
-  
+        height: 2px;
+        background-color: #dbab83;
+        margin: 4px auto;
+        transition: all 0.3s;
+        backface-visibility: hidden;
       }
     }
-    .bg-bottom{
-      height: 50vh;
-      background: none;
+    
+    #toggle-modal.on .one {
+      transform: rotate(45deg) translate(2px, 2px);
     }
+    
+    #toggle-modal.on .two {
+      opacity: 0;
+    }
+    
+    #toggle-modal.on .three {
+      transform: rotate(-45deg) translate(6px, -7px);
+    }
+    
+    #menu-modal {
+      position: absolute;
+      left: 0;
+      top: 65px;
+      color: white;
+      border: 1px solid white;
+      width: 100%;
+      height: 100vh;
+      padding: 10px;
+      background-color: #cb875f;
+      border-radius: 3px;
+      line-height: 100px;
+      text-align: center;
+      margin: auto;
+      display: none;
+      .modal-content{
+        height: calc(100vh - 50px);
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 65px;
+        .full-modal{
+          padding: 0;
+      
+          .container-fluid{
+            padding: 0;
+            margin: 0;
+            .bg{
+              width: 100%;
+              height: 50vh;
+              background-image: url(../images/Modal/2.jpg);
+              background-size: cover;
+              background-position: center center;
+              padding: 0;
+              margin: 0;
+        
+              .top-left{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                &:hover{
+                  opacity: 1;
+                  transform: translateX(0px);
+                }
+                div{
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%,-50%);
+                  max-width: none;
+                  line-height: 30px;
+        
+                  .side-label{
+                    font-size: 13px;
+                    line-height: 22px;
+                    font-weight: 400;
+                    display: block;
+                    color: #cb875f;
+                    text-align: left;
+                  }
+                  .side-title{
+                    font-size: 30px;
+                    font-weight: 800;
+                    position: relative;
+                    text-align: left;
+                    &:hover:before {
+                      width: 20px;
+                      text-align: right;
+                      margin-right: 5px;
+                      margin-left: -25px;
+                      content: '[';
+                      transform: translateX(20px);
+                    }
+                    &:hover:after {
+                      width: 20px;
+                      text-align: left;
+                      margin-left: 5px;
+                      margin-right: -25px;
+                      content: ']';
+                      transform: translateX(-20px);
+                    }
+                  }
+                  .another{
+                    color: #fff;
+                  }
+                }
+              }
+        
+            }
+          }
+          .bg-bottom{
+            height: 50vh;
+            background: none;
+          }
+        }
+      }
+    }
+  
+
   }
-}
-}
 
 }

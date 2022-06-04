@@ -2,84 +2,69 @@
     width: 100%;
     height: 100vh;
     .view {
-        width: 100%;
         .bg{
-            width: 100%;
-            top:0;
-            left: 0;
             pointer-events: none;
             display: block;
             background-position: center center;
             background-size: cover;
           }
-        .content{
-          position: absolute;
-          transition: transform .5s;
-          top: 35%;
-          left: 0;
-          right: 0;
-          @media (max-width:991px) {
-            top: 27%;
-          }
-          @media (max-width: 768px) {
-            top: 40%;
-          }
-          .container-fluid{
-            @media (max-width:991px) {
-              padding-left: 0;
-              padding-right: 0;
-            }
-          }
-          .content-body{
-            text-align: right;
-            position: relative;
-            padding-left: 10rem;
-            z-index: 1030;
-            top: -50%;
+          .content{
+            position: absolute;
+            transition: transform .5s;
+            top: 35%;
             left: 0;
             right: 0;
-            transform: translateY(-50%);
             @media (max-width:991px) {
-              width: 100%;
-              text-align: center;
-              position: unset;
-              transform: unset;
-              margin-left: 0;
-              padding-left: 0;
+              top: 27%;
             }
             @media (max-width: 768px) {
+              top: 40%;
+            }
+            .container-fluid{
+              @media (max-width:991px) {
+                padding-left: 0;
+                padding-right: 0;
+              }
+            }
+            .content-body{
+              text-align: center;
               position: relative;
-              top: -50%;
+              z-index: 1030;
+              top: 25%;
               left: 0;
-              transform: translateY(-50%);
+              right: 0;
+              transform: translateY(25%);
+              @media (max-width:991px) {
+                width: 100%;
+                text-align: center;
+                position: unset;
+                transform: unset;
+                margin-left: 0;
+                padding-left: 0;
+              }
+              @media (max-width: 768px) {
+                position: relative;
+                top: 50%;
+                left: 0;
+                transform: translateY(50%);
+              }
+      
+              p{
+                letter-spacing: 2px;
+                a{
+                    color: #fff;
+                }
+              }
+
+                .home-alice-heading{
+                  @media (max-width: 767px)
+                   {
+                    font-size: 50px;
+                    line-height: 50px;
+                  }
+                }
             }
-    
-            p{
-              letter-spacing: 2px;
-              a{
-                  color: #fff;
-              }
-            }
-            .myText {
-                text-align: right;
-                @media (max-width:991px) {
-                  text-align: center;
-                }
-              }
-              .home-alice-heading{
-                @media (max-width: 767px)
-                 {
-                  font-size: 50px;
-                  line-height: 50px;
-                }
-              }
-              .home-alice-heading,.text-right{
-                @media (max-width:991px) {
-                  text-align: center;
-                }
-              }
-          }
-      }
+        }
       
     }
 }

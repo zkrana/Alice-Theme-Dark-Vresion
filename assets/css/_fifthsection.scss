@@ -4,7 +4,6 @@
         height: 100%;
         padding-top: 70px;
         padding-bottom: 70px;
-        background-color: rgba(255, 255, 255, 0.9);
         @media (max-width: 991px){
           .header-details {
           font-size: 11px;
@@ -134,7 +133,7 @@
                   }
             }
             .filters li a{
-                color: #434343;
+                color: #dbab83;
                 text-decoration: none;
                 @media (max-width: 991px) {
                   font-size: 11px;
@@ -142,7 +141,7 @@
             }   
             .filters li.active a{
                 padding: 10px 25px;
-                color: #cb875f;
+                color: #fff;
                 @media (max-width: 680px) {
                   padding: 10px;
                 }

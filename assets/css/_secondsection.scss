@@ -85,7 +85,8 @@
             height: 100%;
             padding-top: 70px;
             padding-bottom: 70px;
-            background-color: rgba(255, 255, 255, 0.9);
+            background-color: #141414;
+            color: #ffffff;
             .container{
                 @media (max-width:991px) {
                     max-width: 100%;
@@ -93,10 +94,11 @@
                     margin: 0;
                 }
             }
-            h2,p{
-                color: #434343;
+            .highlight{
+                color: #dbab83;
             }
             p{
+                color: #dfdfdf;
                 margin-top: -10px;
                 margin-bottom: 30px;
                 font-size: 13px;
@@ -114,7 +116,6 @@
             line-height: 24px;
             letter-spacing: 1.2px;
             font-weight: 400;
-            color: #767676;
             }
             .bottom-content{
                 .icon{
@@ -135,13 +136,15 @@
                     width: calc(100% - 70px);
                     float: right;
                     padding-left: 15px;
-                    h4,p{
-                        color: #434343;
+                    p{
+                        color: #dfdfdf;
                         text-align: left;
                     }
                     h4{
                         font-size: 20px;
                         line-height: 24px;
+                        text-align: left;
+                        color: #dbab83;
                         @media (max-width: 991px) {
                             font-size: 15px;
                             line-height: 18px;
@@ -161,10 +164,7 @@
         }
     }
     #how-we-work{
-        background: url(../images/picjumbo.com_IMG_7432.jpg) no-repeat;
-        background-position: center center;
-        background-size: cover;
-        margin-top: -20px;
+        
         .overlay{
             width: 100%;
             height: 100%;
