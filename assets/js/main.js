@@ -224,47 +224,6 @@ $(document).ready(function(){
 	});
   });
 
-//   $(document).ready(function(){
-// 	$('#one').mkinfinite({
-// 	  maxZoom:       1.4,
-// 	  animationTime: 4000,
-// 	  imagesRatio:   (960 / 720),
-// 	  isFixedBG:     true,
-// 	  zoomIn:        true,
-// 	  imagesList:    new Array(
-// 		'assets/images/Alice-bg-1.jpg',
-// 		'assets/images/Alice-bg-1.jpg'
-// 	  )
-// 	});
-//   });
-
-//   $(document).ready(function(){
-// 	$('.about-bg').mkinfinite({
-// 	  maxZoom:       1.4,
-// 	  animationTime: 4000,
-// 	  imagesRatio:   (960 / 720),
-// 	  isFixedBG:     true,
-// 	  zoomIn:        true,
-// 	  imagesList:    new Array(
-// 		'assets/images/autumn-avenue-path-946.jpg',
-// 		'assets/images/autumn-avenue-path-946.jpg'
-// 	  )
-// 	});
-//   });
-
-//   $(document).ready(function(){
-// 	$('#how-we-work').mkinfinite({
-// 	  maxZoom:       1.4,
-// 	  animationTime: 4000,
-// 	  imagesRatio:   (960 / 720),
-// 	  isFixedBG:     true,
-// 	  zoomIn:        true,
-// 	  imagesList:    new Array(
-// 		'assets/images/picjumbo.com_IMG_7432.jpg',
-// 		'assets/images/coffee-coffee-machine-cup-3042.jpg'
-// 	  )
-// 	});
-//   });
 
   $(document).ready(function(){
 	$('#numbers').mkinfinite({
@@ -280,33 +239,6 @@ $(document).ready(function(){
 	});
   });
 
-//   $(document).ready(function(){
-// 	$('.team').mkinfinite({
-// 	  maxZoom:       1.4,
-// 	  animationTime: 4000,
-// 	  imagesRatio:   (960 / 720),
-// 	  isFixedBG:     true,
-// 	  zoomIn:        true,
-// 	  imagesList:    new Array(
-// 		'assets/images/3F7D411CC8.jpg',
-// 		'assets/images/3F7D411CC8.jpg'
-// 	  )
-// 	});
-//   });
-
-//   $(document).ready(function(){
-// 	$('.service').mkinfinite({
-// 	  maxZoom:       1.4,
-// 	  animationTime: 4000,
-// 	  imagesRatio:   (960 / 720),
-// 	  isFixedBG:     true,
-// 	  zoomIn:        true,
-// 	  imagesList:    new Array(
-// 		'assets/images/coffee-coffee-machine-cup-3042.jpg',
-// 		'assets/images/coffee-coffee-machine-cup-3042.jpg'
-// 	  )
-// 	});
-//   });
 
   $(document).ready(function(){
 	$('.slogan').mkinfinite({
@@ -336,36 +268,6 @@ $(document).ready(function(){
 	  )
 	});
   });
-
-//   $(document).ready(function(){
-// 	$('.skill').mkinfinite({
-// 	  maxZoom:       1.4,
-// 	  animationTime: 4000,
-// 	  imagesRatio:   (960 / 720),
-// 	  isFixedBG:     true,
-// 	  zoomIn:        true,
-// 	  imagesList:    new Array(
-// 		'assets/images/219FB68281.jpg',
-// 		'assets/images/219FB68281.jpg'
-// 	  )
-// 	});
-//   });
-
-
-//   $(document).ready(function(){
-// 	$('.process-bg').mkinfinite({
-// 	  maxZoom:       1.4,
-// 	  animationTime: 4000,
-// 	  imagesRatio:   (960 / 720),
-// 	  isFixedBG:     true,
-// 	  zoomIn:        true,
-// 	  imagesList:    new Array(
-// 		'assets/images/art-brush-colors-3112.jpg',
-// 		'assets/images/art-brush-colors-3112.jpg'
-// 	  )
-// 	});
-//   });
-
 
   // Number Counter
 
