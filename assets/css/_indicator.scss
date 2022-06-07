@@ -48,9 +48,14 @@
     }
     .active{
         a{
+          width: 10px;
+          height: 10px;
+          margin-left: 1px;
           border-color: #cb875f;
           border-radius: 50%;
-          background-color: #cb875f;
+          span{
+            background-color: #000000;
+          }
         }
     }
 
@@ -101,13 +106,9 @@
     }
   }
 
-
-
-
   section{
     color: #fff;
     text-align: center;
-    padding: .2rem;
   }
 
  .page-border {
@@ -124,7 +125,7 @@
   height: 25px;
   .page-border.bottom {
     position: fixed;
-    width: 97.8%;
+    right: 19px;
     left: 24px;
     border-top: 1px solid rgba(255, 255, 255, 0.16);
     text-align: center;
@@ -293,14 +294,14 @@
 
         #toggle {
           width: 28px;
-          height: 30px;
+          height: 25px;
           margin: 10px auto;
         }
         
         #toggle div {
           width: 100%;
           height: 2px;
-          background: #dbab83;
+          background: #ffffff;
           margin: 4px auto;
           transition: all 0.3s;
           backface-visibility: hidden;

@@ -102,7 +102,7 @@
     border-bottom-style: solid;
     padding-bottom: 7px;
   }
-  .colors-h {
+  .colors-h{
     color:#efefef;
     background-color:rgba(14,14,15,.85);
    }
@@ -129,6 +129,9 @@
   }
   .background-35-h {
     background-color: rgba(14,14,15,.35);
+  }
+  .background-40 {
+    background-color: rgba(33,30,28,.4);
   }
   .background-lite-e {
     background-color: rgba(255,255,255,.53085837);
@@ -290,4 +293,9 @@
   .padding-0{
     padding: 0;
     background-color: #0f0e0e;
+  }
+  .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }

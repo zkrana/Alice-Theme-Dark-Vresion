@@ -20,7 +20,7 @@
   
     #toggle-modal {
       width: 28px;
-      height: 30px;
+      height: 25px;
       margin: 10px auto;
 
       div {
@@ -60,6 +60,7 @@
       text-align: center;
       margin: auto;
       display: none;
+
       .modal-content{
         height: calc(100vh - 50px);
         position: fixed;
@@ -87,17 +88,19 @@
                 justify-content: center;
                 align-items: center;
                 position: relative;
-                &:hover{
-                  opacity: 1;
-                  transform: translateX(0px);
-                }
+                
                 div{
                   position: absolute;
                   top: 50%;
                   left: 50%;
                   transform: translate(-50%,-50%);
+                  width: 220px;
                   max-width: none;
                   line-height: 30px;
+                  text-align: left;
+                  @media (max-width: 620px) {
+                    width: 42%;
+                  }
         
                   .side-label{
                     font-size: 13px;
@@ -112,21 +115,36 @@
                     font-weight: 800;
                     position: relative;
                     text-align: left;
+                    left: 8px;
+                    @media (max-width: 620px) {
+                      font-size: 18px;
+                      margin-left: 5px;
+                    }
                     &:hover:before {
+                      opacity: 1;
+                      transform: translateX(0px);
+                    }
+                    &:before {
                       width: 20px;
                       text-align: right;
                       margin-right: 5px;
                       margin-left: -25px;
                       content: '[';
+                      opacity: 0;
                       transform: translateX(20px);
                     }
-                    &:hover:after {
+                    &:after {
                       width: 20px;
                       text-align: left;
                       margin-left: 5px;
                       margin-right: -25px;
                       content: ']';
+                      opacity: 0;
                       transform: translateX(-20px);
+                    }
+                    &:hover:after {
+                      opacity: 1;
+                      transform: translateX(0px);
                     }
                   }
                   .another{

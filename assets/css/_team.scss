@@ -1,0 +1,189 @@
+.team{
+
+    .overlay{
+        width: 100%;
+        height: 100%;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        h2{
+            color: #dbab83;
+        }
+        p{
+            margin-top: -10px;
+            margin-bottom: 40px;
+            font-size: 16px;
+            letter-spacing: 1.2px;
+            font-weight: 400;
+            color: #dfdfdf;
+            @media (max-width: 991px) {
+                ftext-align: center;
+                font-size: 16px;
+                margin-bottom: 40px;
+                line-height: 24px;
+            }
+        }
+        .bottom-content{
+            .team-body{
+                width: 100%;
+                height: fit-content;
+                position: relative;
+                .fluid-width{
+                    width: 100%;
+                    transition: all .5s ease 0s;
+                }
+                .team-thumbnail{
+                    height: fit-content;
+                    transition: all .5s ease 0s;
+                    position: relative;
+                    overflow: hidden;
+                    &:hover img{
+                        transform: scale(1.55,1.55) rotate(-20deg);
+                    }
+                    .team-hover{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0;
+                        display: block;
+                        margin: auto 0;
+                        transform: scale(1);
+                        overflow: hidden;
+                        padding-top: 50%;
+                        transition: all .5s ease;
+                        @media (max-width: 575px) {
+                            padding-left: 5%;
+                            padding-right: 5%;
+                        }
+                        p{
+                            color: #ffffff;
+                            @media (max-width: 575px) {
+                                font-size: 8px;
+                                letter-spacing: 0;
+                                line-height: 1.2;
+                                margin-bottom: 20px;
+                            }
+                        }
+                    }
+                    &:hover .team-hover{
+                        opacity: 1;
+                        background-color: rgba(97,94,90,.9);
+                    }
+                }
+                .caption{
+                    height: 44px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    p{
+                        margin: 0;
+                        .title{
+                            @media (max-width: 991px) {
+                                font-size: 11px;
+                                font-weight: 700;
+                            }
+                            @media (max-width: 480px) {
+                                font-size: 10px;
+                            }
+                        }
+                        .white{
+                            @media (max-width: 991px) {
+                                font-size: 13px;
+                                font-weight: 400;
+                            }
+                            @media (max-width: 480px) {
+                                font-size: 10px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .want-change{
+            margin-top: 2rem;
+            .highlight{
+                color: #cb875f;
+                margin-bottom: 20px;
+                margin-top: -10px;
+            }
+            h3{
+                font-size: 30px;
+                margin-top: 0;
+            }
+        }
+    }
+}
+.want-to-change{
+    margin: 0;
+    padding: 0;
+    .container-fluid{
+        @media (max-width: 1249px) {
+            padding: 0;
+            margin: 0;
+        }
+        .content{
+            margin: 0;
+            .bg{
+                height: 400px;
+                background: url(../images/69-edited.jpg) no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                color: #ffffff;
+                .views{
+                    text-transform: uppercase;
+                    display: inline-block;
+                    color: #ffffff;
+                    &:hover{
+                        color: rgba(255,224,204,.75);
+                        color: #ffffff;
+                    }
+                }
+            }
+
+            .right-content{
+                overflow: hidden;
+                width: 100%;
+                height: 400px;
+                position: relative;
+                .content {
+                    height: 400px;
+                    font-family: 'Raleway';
+                    font-weight: 400;
+                    position: relative;
+                    padding-top: 70px;
+                    padding-bottom: 70px;
+                    transition: transform .5s;
+                    background: #0f0e0e;
+                    // @media (max-width: 991px) {
+                    //     padding-bottom: 0;
+                    // }
+                    .position-middle-center {
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%,-50%);
+                        text-align: left;
+                        @media (max-width: 991px) {
+                            width: 90%;
+                        }
+                        p{
+                            letter-spacing: 1.2px;
+                        }
+                        .fonts{
+                            color: #efefef;
+                            font-size: 13px;
+                            line-height: 22px;
+                            letter-spacing: 1.2px;
+                        }
+                      }
+                  }
+            }
+        }
+    }
+
+}
